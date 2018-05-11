@@ -1,13 +1,23 @@
 {
   "name": "maildrop",
-  "author": "Lorenz Leutgeb <lorenz.leutgeb@gmail.com> (https://github.com/flowlo)",
-  "version": "0.0.1",
+  "author": "Lorenz Leutgeb <lorenz@leutgeb.xyz>",
+  "version": "0.0.2",
+  "license": "MIT",
+  "description": "A commandline client for MailDrop",
   "main": "lib/maildrop.js",
   "bin": {
     "maildrop": "bin/maildrop.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/flowlo/node-maildrop.git"
-  }
+    "url": "git://github.com/lorenzleutgeb/node-maildrop.git"
+  },
+  "keywords": [
+    "cli",
+    "maildrop",
+    "mailbox",
+    "fetch",
+    "inbox",
+    "anonymous"
+  ]
 }
